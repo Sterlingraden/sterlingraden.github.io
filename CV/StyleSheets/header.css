@@ -1,0 +1,56 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    font-family: "Open Sans";
+    margin-bottom: 30px;
+}
+
+header div {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+header p {
+    color: var(--primary-color);
+}
+
+#name {
+    font-size: 50px;
+    margin: 0 auto 0 0;
+}
+
+#job {
+    font-size: 28px;
+    margin: 0 auto 0 10px;
+}
+
+
+#contact {
+    align-items: flex-end;
+}
+
+#contact p {
+    font-size: 18px;
+    width: 300px;
+    margin: 15px 0 0 auto;
+}
+
+#contact p a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+#contact p a span {
+    margin-right: 10px;
+    position: relative;
+    bottom: -3px;
+}
+
+.icon {
+    font-family: "Material Icons";
+    user-select: none;
+}

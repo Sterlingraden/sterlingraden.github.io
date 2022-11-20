@@ -1,0 +1,63 @@
+main {
+    width: 80%;
+    padding: 50px 0 0 35px;
+}
+
+main hr {
+    width: 96%;
+    margin-left: 2px;
+}
+
+article {
+    padding: 10px 40px 0 20px;
+}
+
+article h3 {
+    color: var(--primary-color);
+    font-family: "Open Sans";
+    font-size: 36px;
+    font-weight: 500;
+    margin-top: 60px;
+    margin-bottom: 2px;
+}
+
+article div h4 {
+    color: var(--subtitle-color);
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: -10px;
+    padding-left: 3px;
+    transition: ease-out .3s;
+}
+
+article div h4:hover {
+    color: black;
+}
+
+article div p {
+    font-family: "Ubuntu";
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 35px;
+    padding-left: 5px;
+}
+
+.list {
+    font-family: "Ubuntu";
+    font-size: 20px;
+    line-height: 28px;
+    margin-top: -20px;
+    margin-bottom: 15px;
+    padding-left: 36px;
+}
+
+article div p a {
+    color: var(--subtitle-color);
+    transition: ease-out .3s;
+}
+
+article div p a:hover {
+    color: black;
+}

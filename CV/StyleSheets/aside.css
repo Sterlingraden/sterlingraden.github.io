@@ -1,0 +1,59 @@
+aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 50px;
+    background-color: var(--primary-color);
+    width: max(30vw, 350px);
+}
+
+#picture {
+    display: block;
+    margin: 30px auto 0 auto;
+    border-radius: 110px;
+}
+
+aside div {
+    width: 100%;
+    color: white;
+    font-family: "Open Sans";
+    line-height: 28px;
+    padding-left: 28px;
+}
+
+aside div h3 {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: -2px;
+}
+
+aside div ul {
+    font-size: 20px;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-left: -10px;
+}
+
+aside div p {
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    background-color: #959595;
+    width: 64%;
+    height: 15px;
+    margin: -12px auto 20px 2%;
+    border-radius: 2px;
+}
+
+.value {
+    background-color: #f3f3f3;
+    width: 67%;
+    height: 100%;
+    margin-left: -28px;
+    border-radius: 2px;
+}
